@@ -26,7 +26,7 @@
         table.dataSource = self;
         
         searchbar_top = [[UITextField alloc]initWithFrame:CGRectMake(42, 2, 300-44, 44)];
-        searchbar_top.placeholder = @"Search Restaurant";
+        searchbar_top.placeholder = @"Cari Bengkel";
         searchbar_top.font = [UIFont fontWithName:fontDefault size:16];
         
         searchbar_top.delegate = self;

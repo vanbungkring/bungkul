@@ -20,22 +20,22 @@
     if (self) {
         // Custom initialization
         // If you want your BarButtonItem to handle touch event and click, use a UIButton as customView
-        UIButton *customButton = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 20, 20)];
-        // Add your action to your button
-        [customButton addTarget:self action:@selector(barButtonItemPressed:) forControlEvents:UIControlEventTouchUpInside];
-        // Customize your button as you want, with an image if you have a pictogram to display for example
-        [customButton setImage:[UIImage imageNamed:@"cart"] forState:UIControlStateNormal];
-        
-        // Then create and add our custom BBBadgeBarButtonItem
-        BBBadgeBarButtonItem *barButton = [[BBBadgeBarButtonItem alloc] initWithCustomUIButton:customButton];
-        // Set a value for the badge
-        barButton.badgeValue = @"2";
-        
-        barButton.badgeOriginX = 13;
-        barButton.badgeOriginY = -9;
-        
-        // Add it as the leftBarButtonItem of the navigation bar
-        self.navigationItem.rightBarButtonItem = barButton;
+//        UIButton *customButton = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 20, 20)];
+//        // Add your action to your button
+//        [customButton addTarget:self action:@selector(barButtonItemPressed:) forControlEvents:UIControlEventTouchUpInside];
+//        // Customize your button as you want, with an image if you have a pictogram to display for example
+//        [customButton setImage:[UIImage imageNamed:@"cart"] forState:UIControlStateNormal];
+//        
+//        // Then create and add our custom BBBadgeBarButtonItem
+//        BBBadgeBarButtonItem *barButton = [[BBBadgeBarButtonItem alloc] initWithCustomUIButton:customButton];
+//        // Set a value for the badge
+//        barButton.badgeValue = @"2";
+//        
+//        barButton.badgeOriginX = 13;
+//        barButton.badgeOriginY = -9;
+//        
+//        // Add it as the leftBarButtonItem of the navigation bar
+//        self.navigationItem.rightBarButtonItem = barButton;
     }
     return self;
 }

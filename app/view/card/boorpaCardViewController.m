@@ -22,9 +22,9 @@
         self.view.backgroundColor = [UIColor whiteColor];
         table_card = [[UITableView alloc]initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height)];
         popup = [[boorpaInsertCardViewController alloc]init];
-        [self.view addSubview:table_card];
+        //[self.view addSubview:table_card];
         
-        self.title = @"Manage Cards";
+        self.title = @"Upgrade Membership";
 //        // If you want your BarButtonItem to handle touch event and click, use a UIButton as customView
 //        UIButton *customButton = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 20, 20)];
 //        // Add your action to your button
@@ -55,21 +55,21 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    UIBarButtonItem *anotherButton = [[UIBarButtonItem alloc] initWithTitle:@"Add Card" style:UIBarButtonItemStylePlain target:self action:@selector(addCard:)];
-    self.navigationItem.rightBarButtonItem = anotherButton;
+//    UIBarButtonItem *anotherButton = [[UIBarButtonItem alloc] initWithTitle:@"Add Card" style:UIBarButtonItemStylePlain target:self action:@selector(addCard:)];
+//    self.navigationItem.rightBarButtonItem = anotherButton;
     // Do any additional setup after loading the view.
 }
--(void)addCard:(id)sender{
-    [self setDismissable:false];
-    [popup setPopinOptions:BKTPopinDisableAutoDismiss];
-    [popup setPopinTransitionStyle:5];
-    [popup setPopinOptions:[popup popinOptions]|BKTPopinBlurryDimmingView];
-    [popup setPreferedPopinContentSize:CGSizeMake(280.0, 300.0)];
-    [self.navigationController presentPopinController:popup animated:YES completion:^{
-        
-    }];
-
-}
+//-(void)addCard:(id)sender{
+//    [self setDismissable:false];
+//    [popup setPopinOptions:BKTPopinDisableAutoDismiss];
+//    [popup setPopinTransitionStyle:5];
+//    [popup setPopinOptions:[popup popinOptions]|BKTPopinBlurryDimmingView];
+//    [popup setPreferedPopinContentSize:CGSizeMake(280.0, 300.0)];
+//    [self.navigationController presentPopinController:popup animated:YES completion:^{
+//        
+//    }];
+//
+//}
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];

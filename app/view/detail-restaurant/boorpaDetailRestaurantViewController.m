@@ -26,20 +26,20 @@ static CGFloat kImageOriginHight = 200.f;
         detail_restaurant.tag =1;
         detail_restaurant.dataSource = self;
         
-        menu =[[UITableView alloc]initWithFrame:CGRectMake(320, 0, self.view.frame.size.width, self.view.frame.size.height-64)];
-        menu.delegate = self;
-        menu.separatorColor = [UIColor clearColor];
-        menu.tag =2;
-        menu.dataSource = self;
+//        menu =[[UITableView alloc]initWithFrame:CGRectMake(320, 0, self.view.frame.size.width, self.view.frame.size.height-64)];
+//        menu.delegate = self;
+//        menu.separatorColor = [UIColor clearColor];
+//        menu.tag =2;
+//        menu.dataSource = self;
         
-        review=[[UITableView alloc]initWithFrame:CGRectMake(320*2, 0, self.view.frame.size.width, self.view.frame.size.height-64)];
+        review=[[UITableView alloc]initWithFrame:CGRectMake(320*1, 0, self.view.frame.size.width, self.view.frame.size.height-64)];
         review.delegate = self;
-        review.tag =3;
+        review.tag =2;
         review.dataSource = self;
         
         
         scroll = [[UIScrollView alloc]initWithFrame:CGRectMake(0, 64, self.view.frame.size.width, self.view.frame.size.height)];
-        scroll.contentSize = CGSizeMake(self.view.frame.size.width*3, self.view.frame.size.height);
+        scroll.contentSize = CGSizeMake(self.view.frame.size.width*2, self.view.frame.size.height);
         scroll.pagingEnabled = YES;
         self.automaticallyAdjustsScrollViewInsets = NO;
         scroll.userInteractionEnabled =true;
@@ -55,7 +55,7 @@ static CGFloat kImageOriginHight = 200.f;
         resto_name = [[UILabel alloc]initWithFrame:CGRectMake(10, 240-70, 300, 30)];
         resto_name.font = [UIFont fontWithName:fontDefault size:25];
         resto_name.textColor = [UIColor whiteColor];
-        resto_name.text = @"Boorpa Resto";
+        resto_name.text = @"Bengkelin Service";
         
         
         location_summary =[[UILabel alloc]initWithFrame:CGRectMake(10, 240-50, 300, 30)];
@@ -86,7 +86,7 @@ static CGFloat kImageOriginHight = 200.f;
         [top_wrapper addSubview:resto_name];
         [top_wrapper addSubview:location_summary];
         
-        NSArray *item = @[@"About",@"Menu"];
+        NSArray *item = @[@"About",@"Review"];
         segmentSelector = [[UISegmentedControl alloc] initWithItems:item];
         [segmentSelector setSelectedSegmentIndex:0];
         segmentSelector.momentary = NO;
@@ -94,7 +94,6 @@ static CGFloat kImageOriginHight = 200.f;
         [segmentSelector addTarget:self action:@selector(actionSegmentedIndexChanged:) forControlEvents:UIControlEventValueChanged];
         
         [scroll addSubview:detail_restaurant];
-        [scroll addSubview:menu];
         [scroll addSubview:review];
         [self.view addSubview:scroll];
 //        // If you want your BarButtonItem to handle touch event and click, use a UIButton as customView
@@ -134,11 +133,6 @@ static CGFloat kImageOriginHight = 200.f;
         case 1:
             return 4;
             break;
-            
-        case 2:
-            return 4;
-            break;
-            
         default:
             return 10;
             break;
@@ -175,15 +169,6 @@ static CGFloat kImageOriginHight = 200.f;
                 break;
                 
         }
-        return cell;
-    }
-    else if(tableView.tag==2){
-        static NSString *cellIdentifier =@"cell";
-        boorpaDetailRestaurantCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
-        if(cell==nil){
-            cell = [[boorpaDetailRestaurantCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIdentifier];
-        }
-        [cell.parallaxImage setImage:[UIImage imageNamed:[NSString stringWithFormat:@"demo_%d.jpg",indexPath.row+1]]];
         return cell;
     }
     else{
@@ -236,9 +221,6 @@ static CGFloat kImageOriginHight = 200.f;
                 break;
         }
         return 155*0.5;
-    }
-    else if(tableView.tag==2){
-        return 150;
     }
     else{
         return 44;

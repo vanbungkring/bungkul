@@ -17,14 +17,14 @@
 #import "netra.h"
 #import "ICETutorialController.h"
 #import <QuartzCore/QuartzCore.h>
-#import "boorpaAppDelegate.h"
+#import "bengkelAppDelegate.h"
 #import "boorpaRestoTableViewCell.h"
 #import "MMDrawerVisualState.h"
 #import "BBBadgeBarButtonItem.h"
 #define IS_IPHONE_5 ( fabs( ( double )[ [ UIScreen mainScreen ] bounds ].size.height - ( double )568 ) < DBL_EPSILON )
 #define ROOTVIEW [[[UIApplication sharedApplication] keyWindow] rootViewController]
 
-#define boorpa ((boorpaAppDelegate *)[[UIApplication sharedApplication] delegate])
+#define boorpa ((bengkelAppDelegate *)[[UIApplication sharedApplication] delegate])
 #define NSStringFromBOOL(aBOOL)    aBOOL? @"YES" : @"NO"
 //remove nslog while production
 #ifdef DEBUG

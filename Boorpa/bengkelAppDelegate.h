@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import  "MMDrawerVisualState.h"
-@interface boorpaAppDelegate : UIResponder <UIApplicationDelegate>
+@interface bengkelAppDelegate : UIResponder <UIApplicationDelegate>
 {
     MMDrawerController * _drawerController;
     NSString *last_string;

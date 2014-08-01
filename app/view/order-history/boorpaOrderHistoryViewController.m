@@ -19,7 +19,7 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         
-        self.title = @"Order History";
+        self.title = @"Edit Profile";
         // Custom initialization
         self.view.backgroundColor = [UIColor whiteColor];
 //        UIButton *customButton = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 20, 20)];

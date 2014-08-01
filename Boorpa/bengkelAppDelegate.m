@@ -6,9 +6,9 @@
 //  Copyright (c) 2014 Boorpa. All rights reserved.
 //
 
-#import "boorpaAppDelegate.h"
+#import "bengkelAppDelegate.h"
 
-@implementation boorpaAppDelegate
+@implementation bengkelAppDelegate
 
 @synthesize managedObjectContext = _managedObjectContext;
 @synthesize managedObjectModel = _managedObjectModel;

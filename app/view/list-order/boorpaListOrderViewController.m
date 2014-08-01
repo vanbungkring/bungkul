@@ -19,7 +19,7 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         
-        self.title = @"List Order";
+        self.title = @"Keanggotaan";
         // Custom initialization
         self.view.backgroundColor = [UIColor whiteColor];
 //        UIButton *customButton = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 20, 20)];

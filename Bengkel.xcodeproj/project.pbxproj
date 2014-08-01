@@ -13,15 +13,13 @@
 		0F00637419068A1A0002B009 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F00637319068A1A0002B009 /* CoreData.framework */; };
 		0F00637A19068A1A0002B009 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0F00637819068A1A0002B009 /* InfoPlist.strings */; };
 		0F00637C19068A1A0002B009 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F00637B19068A1A0002B009 /* main.m */; };
-		0F00638019068A1A0002B009 /* boorpaAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F00637F19068A1A0002B009 /* boorpaAppDelegate.m */; };
+		0F00638019068A1A0002B009 /* bengkelAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F00637F19068A1A0002B009 /* bengkelAppDelegate.m */; };
 		0F00638319068A1A0002B009 /* Boorpa.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0F00638119068A1A0002B009 /* Boorpa.xcdatamodeld */; };
 		0F00638519068A1A0002B009 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F00638419068A1A0002B009 /* Images.xcassets */; };
 		0F00638C19068A1A0002B009 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F00638B19068A1A0002B009 /* XCTest.framework */; };
 		0F00638D19068A1A0002B009 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F00636D19068A1A0002B009 /* Foundation.framework */; };
 		0F00638E19068A1A0002B009 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F00637119068A1A0002B009 /* UIKit.framework */; };
 		0F00638F19068A1A0002B009 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F00637319068A1A0002B009 /* CoreData.framework */; };
-		0F00639719068A1A0002B009 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0F00639519068A1A0002B009 /* InfoPlist.strings */; };
-		0F00639919068A1A0002B009 /* BoorpaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F00639819068A1A0002B009 /* BoorpaTests.m */; };
 		4333A610191B790B008CF5AE /* UbertestersSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4333A60E191B790B008CF5AE /* UbertestersSDK.framework */; };
 		4333A611191B790B008CF5AE /* UbertestersSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4333A60F191B790B008CF5AE /* UbertestersSDKResources.bundle */; };
 		4333A613191B7922008CF5AE /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4333A612191B7922008CF5AE /* AdSupport.framework */; };
@@ -136,15 +134,12 @@
 		0F00637919068A1A0002B009 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0F00637B19068A1A0002B009 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0F00637D19068A1A0002B009 /* Bengkel-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bengkel-Prefix.pch"; sourceTree = "<group>"; };
-		0F00637E19068A1A0002B009 /* boorpaAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = boorpaAppDelegate.h; sourceTree = "<group>"; };
-		0F00637F19068A1A0002B009 /* boorpaAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = boorpaAppDelegate.m; sourceTree = "<group>"; };
+		0F00637E19068A1A0002B009 /* bengkelAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bengkelAppDelegate.h; sourceTree = "<group>"; };
+		0F00637F19068A1A0002B009 /* bengkelAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bengkelAppDelegate.m; sourceTree = "<group>"; };
 		0F00638219068A1A0002B009 /* Boorpa.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Boorpa.xcdatamodel; sourceTree = "<group>"; };
 		0F00638419068A1A0002B009 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0F00638A19068A1A0002B009 /* BengkelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BengkelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F00638B19068A1A0002B009 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		0F00639419068A1A0002B009 /* BoorpaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BoorpaTests-Info.plist"; sourceTree = "<group>"; };
-		0F00639619068A1A0002B009 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		0F00639819068A1A0002B009 /* BoorpaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BoorpaTests.m; sourceTree = "<group>"; };
 		4333A60E191B790B008CF5AE /* UbertestersSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UbertestersSDK.framework; sourceTree = "<group>"; };
 		4333A60F191B790B008CF5AE /* UbertestersSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = UbertestersSDKResources.bundle; sourceTree = "<group>"; };
 		4333A612191B7922008CF5AE /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
@@ -328,8 +323,7 @@
 			isa = PBXGroup;
 			children = (
 				43AF2078190C31B9006E317F /* app */,
-				0F00637519068A1A0002B009 /* Boorpa */,
-				0F00639219068A1A0002B009 /* BoorpaTests */,
+				0F00637519068A1A0002B009 /* Bengkel */,
 				0F00636C19068A1A0002B009 /* Frameworks */,
 				0F00636B19068A1A0002B009 /* Products */,
 			);
@@ -366,15 +360,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		0F00637519068A1A0002B009 /* Boorpa */ = {
+		0F00637519068A1A0002B009 /* Bengkel */ = {
 			isa = PBXGroup;
 			children = (
-				0F00637E19068A1A0002B009 /* boorpaAppDelegate.h */,
-				0F00637F19068A1A0002B009 /* boorpaAppDelegate.m */,
+				0F00637E19068A1A0002B009 /* bengkelAppDelegate.h */,
+				0F00637F19068A1A0002B009 /* bengkelAppDelegate.m */,
 				0F00638419068A1A0002B009 /* Images.xcassets */,
 				0F00638119068A1A0002B009 /* Boorpa.xcdatamodeld */,
 				0F00637619068A1A0002B009 /* Supporting Files */,
 			);
+			name = Bengkel;
 			path = Boorpa;
 			sourceTree = "<group>";
 		};
@@ -385,24 +380,6 @@
 				0F00637819068A1A0002B009 /* InfoPlist.strings */,
 				0F00637B19068A1A0002B009 /* main.m */,
 				0F00637D19068A1A0002B009 /* Bengkel-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		0F00639219068A1A0002B009 /* BoorpaTests */ = {
-			isa = PBXGroup;
-			children = (
-				0F00639819068A1A0002B009 /* BoorpaTests.m */,
-				0F00639319068A1A0002B009 /* Supporting Files */,
-			);
-			path = BoorpaTests;
-			sourceTree = "<group>";
-		};
-		0F00639319068A1A0002B009 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				0F00639419068A1A0002B009 /* BoorpaTests-Info.plist */,
-				0F00639519068A1A0002B009 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -956,7 +933,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F00639719068A1A0002B009 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1007,7 +983,7 @@
 				435F5151190E95AE001E7F48 /* AFHTTPRequestOperation.m in Sources */,
 				435F5159190E95AE001E7F48 /* AFURLSessionManager.m in Sources */,
 				43AF208A190C31EE006E317F /* MMDrawerBarButtonItem.m in Sources */,
-				0F00638019068A1A0002B009 /* boorpaAppDelegate.m in Sources */,
+				0F00638019068A1A0002B009 /* bengkelAppDelegate.m in Sources */,
 				435F5153190E95AE001E7F48 /* AFHTTPSessionManager.m in Sources */,
 				0F00638319068A1A0002B009 /* Boorpa.xcdatamodeld in Sources */,
 				435F5161190E95AE001E7F48 /* UIWebView+AFNetworking.m in Sources */,
@@ -1022,7 +998,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F00639919068A1A0002B009 /* BoorpaTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1041,14 +1016,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				0F00637919068A1A0002B009 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		0F00639519068A1A0002B009 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0F00639619068A1A0002B009 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
